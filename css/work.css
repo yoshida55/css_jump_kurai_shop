@@ -64,28 +64,34 @@
 
 .img_container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 0.2rem;
 }
 
 .img_inner {
-  flex: 1;
+  width: 49%;
   position: relative;
-  border: 2rem solid #000;
 }
 
 .img_overlay {
   position: absolute;
   bottom: 0;
   width: 30rem;
-  background-color: #c4b6b680;
-  bottom: 22rem;
-  left: 11rem;
+  height: 12rem;
+  background-color: #70707080;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   color: #fff;
   padding: 1rem;
 }
 
 .overlay_title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .overlay_text {
@@ -107,6 +113,7 @@
   position: absolute;
   top: 1rem;
   left: 60rem;
+  border: 2rem solid #000;
 }
 
 .Fashion_title_list {
@@ -117,7 +124,7 @@
 }
 
 .Fashion_title {
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -147,19 +154,19 @@
    │ catalog_area                            │
    └─────────────────────────────────────────┘ */
 
-.catalog_area {
+.catalog_antique_area {
   margin-bottom: 6rem;
   padding: 0 20rem;
 }
 
-.catalog_container1 {
+.catalog_antique_container1 {
   display: flex;
   justify-content: center;
   gap: 4rem;
   align-items: center;
 }
 
-.catalog_container2 {
+.catalog_antique_container2 {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
@@ -167,49 +174,31 @@
   gap: 4rem;
 }
 
-.catalog_img {
-  width: 35%;
+.catalog_antique_img {
+  width: 42%;
   height: 50rem;
 }
 
-.catalog_title_list {
+.catalog_antique_title_list {
 }
 
-.catalog_title {
+.catalog_antique_title {
   text-align: center;
   font-size: 2.4rem;
   font-weight: bold;
   margin-top: 2rem;
 }
 
-.catalog_description {
+.catalog_antique_description {
   width: 50rem;
 }
 
-/* --- レイアウト確認用（完成したら消す） --- */
-div,
-section,
-article,
-header,
-footer,
-nav,
-main {
-  outline: 1px solid red !important;
-}
-img,
-svg {
-  outline: 1px solid blue !important;
-  background-color: rgba(0, 0, 255, 0.1);
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-span,
-a,
-li {
-  outline: 1px solid limegreen !important;
+.catalog_antique_link {
+  display: block;
+  width: 14rem;
+  margin: 4rem auto 0 auto;
+  padding: 1.7rem 3.7rem;
+  border: 0.2rem solid #000;
+  text-align: center;
+  font-size: 1.2rem;
 }
