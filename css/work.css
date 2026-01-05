@@ -1,3 +1,173 @@
 /* ┌─────────────────────────────────────────┐
-   │ セクション名                        │
+   │ mainvisual_area                      │
    └─────────────────────────────────────────┘ */
+
+.mainvisual_area {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-bottom: 8rem;
+}
+
+.mainvisual_inner {
+  width: 100%;
+  height: 100%;
+}
+
+.mainvisual_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo_img {
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+  width: 15rem;
+}
+
+/* ┌─────────────────────────────────────────┐
+   │ newspaper                               │
+   └─────────────────────────────────────────┘ */
+
+.newspaper_area {
+  width: 100%;
+  margin-bottom: 14rem;
+  padding: 0 20rem;
+}
+
+.newspaper_inner {
+  width: 100%;
+}
+
+.newspaper_title_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.newspaper_title {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.newspaper_description {
+  display: block;
+  width: 60rem;
+  font-size: 1.6rem;
+  margin-top: 0.8rem;
+}
+
+.img_container {
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.img_inner {
+  flex: 1;
+  position: relative;
+  border: 2rem solid #000;
+}
+
+.img_overlay {
+  position: absolute;
+  bottom: 0;
+  width: 30rem;
+  background-color: #c4b6b680;
+  bottom: 22rem;
+  left: 11rem;
+  color: #fff;
+  padding: 1rem;
+}
+
+.overlay_title {
+}
+
+.overlay_text {
+}
+
+/* ┌─────────────────────────────────────────┐
+   │ Fashion_area                            │
+   └─────────────────────────────────────────┘ */
+
+.Fashion_area {
+  width: 100%;
+  margin-bottom: 15rem;
+  padding: 0 20rem;
+}
+
+.Fashion_title_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.3rem;
+}
+
+.Fashion_title {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.Fashion_description {
+  width: 55rem;
+  font-size: 1.4rem;
+}
+
+.read_more_container {
+  width: 14rem;
+  margin: 0 auto;
+
+  text-align: center;
+  margin-top: 4rem;
+  padding: 1.7rem 3.7rem;
+  border: 0.2rem solid #000;
+  font-size: 1.2rem;
+}
+
+.Fashion_img {
+}
+
+/* ┌─────────────────────────────────────────┐
+   │ catalog_area                            │
+   └─────────────────────────────────────────┘ */
+
+.catalog_area {
+  margin-bottom: 6rem;
+  padding: 0 20rem;
+}
+
+.catalog_container1 {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.catalog_container1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.catalog_img {
+  width: 40%;
+  height: 50rem;
+}
+
+.catalog_title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.catalog_description {
+  width: 50rem;
+}
