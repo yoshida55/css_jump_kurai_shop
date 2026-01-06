@@ -97,6 +97,8 @@
 }
 
 .overlay_text {
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 /* ┌─────────────────────────────────────────┐
@@ -112,7 +114,6 @@
 }
 
 .fashion_wrapper {
-  /* debug // あとで☑ */
   text-align: center;
   padding: 60px;
 }
@@ -177,18 +178,11 @@
   width: 50rem;
 }
 
-.catalog_antique_title_list {
-}
-
 .catalog_antique_title {
   text-align: center;
   font-size: 2.4rem;
   font-weight: bold;
   margin-top: 2rem;
-}
-
-.catalog_antique_description {
-  width: 100%;
 }
 
 .catalog_antique_link {
@@ -202,7 +196,7 @@
 }
 
 /* ┌─────────────────────────────────────────┐
-   │ フッダー　　　　　                        │
+   │ フッター                                │
    └─────────────────────────────────────────┘ */
 
 .footer_area {
@@ -216,7 +210,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20em;
+  gap: 20rem;
 }
 
 .footer_img {
@@ -268,31 +262,12 @@
 
   .newspaper_area {
     width: 100%;
-    margin-bottom: 14rem;
-    padding: 0 4rem;
-  }
-
-  .newspaper_title {
-    display: block;
-    font-size: 2.4rem;
-    font-weight: bold;
+    margin-bottom: 6rem;
+    padding: 0 2rem;
   }
 
   .newspaper_description {
-    display: block;
     width: auto;
-    font-size: 1.6rem;
-    margin-top: 0.8rem;
-  }
-
-  /* ┌─────────────────────────────────────────┐
-     │ レスポンシブ　ニュースペーパーエリア                        │
-     └─────────────────────────────────────────┘ */
-
-  .newspaper_area {
-    width: 100%;
-    margin-bottom: 6rem;
-    padding: 0 2rem;
   }
 
   .newspaper_inner {
@@ -307,11 +282,10 @@
   }
 
   /* ┌─────────────────────────────────────────┐
-     │ Fashon style                        │
+     │ Fashion style                       │
      └─────────────────────────────────────────┘ */
 
   .fashion_wrapper {
-    /* debug // あとで☑ */
     text-align: center;
     padding: 60px;
   }
@@ -332,7 +306,7 @@
 
   .fashion_btn {
     display: inline-block;
-    margin-top: 2em;
+    margin-top: 2rem;
     padding: 1rem 3rem;
     font-size: 1.2rem;
   }
@@ -389,7 +363,7 @@
   }
 
   /* ┌─────────────────────────────────────────┐
-     │ フッター　　　　                        │
+     │ フッター                                │
      └─────────────────────────────────────────┘ */
 
   .footer_inner {
@@ -398,7 +372,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 4.3em;
+    gap: 4.3rem;
   }
 
   .footer_img {
