@@ -203,6 +203,61 @@
 }
 
 /* ┌─────────────────────────────────────────┐
+   │ フッダー　　　　　                        │
+   └─────────────────────────────────────────┘ */
+
+.footer_area {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 10rem 0;
+}
+
+.footer_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20em;
+}
+
+.footer_img {
+  width: 15rem;
+}
+
+.footer_title,
+.footer_longtitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.footer_description,
+.footer_dlongdescription {
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+/* ┌─────────────────────────────────────────┐
+   │ コピーライト　　　                        │
+   └─────────────────────────────────────────┘ */
+.copyright_area {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 3.4rem 0;
+  height: 8rem;
+}
+
+.copyright_inner {
+  text-align: center;
+}
+
+.copyright_text {
+  display: block;
+  font-size: 1.2rem;
+  color: black;
+}
+
+/* ┌─────────────────────────────────────────┐
    │ レスポンシブ                        │
    └─────────────────────────────────────────┘ */
 
