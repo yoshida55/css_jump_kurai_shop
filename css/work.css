@@ -34,7 +34,7 @@
 .newspaper_area {
   width: 100%;
   margin-bottom: 14rem;
-  padding: 0 20rem;
+  padding: 0 28rem;
 }
 
 .newspaper_inner {
@@ -109,7 +109,6 @@
   background-image: url("../img/fashion.jpg");
   background-size: cover; /* 要素いっぱいに広げる */
   background-position: center; /* 中央基準で表示 */
-  border: 2px solid #000;
 }
 
 .fashion_wrapper {
@@ -222,6 +221,7 @@
 
 .footer_img {
   width: 15rem;
+  align-self: center;
 }
 
 .footer_title,
@@ -285,6 +285,77 @@
     margin-top: 0.8rem;
   }
 
+  /* ┌─────────────────────────────────────────┐
+     │ レスポンシブ　ニュースペーパーエリア                        │
+     └─────────────────────────────────────────┘ */
+
+  .newspaper_area {
+    width: 100%;
+    margin-bottom: 6rem;
+    padding: 0 2rem;
+  }
+
+  .newspaper_inner {
+    width: 100%;
+  }
+
+  /* 親要素 画像二つを左右に分ける flex */
+  .img_container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  /* ┌─────────────────────────────────────────┐
+     │ Fashon style                        │
+     └─────────────────────────────────────────┘ */
+
+  .fashion_wrapper {
+    /* debug // あとで☑ */
+    text-align: center;
+    padding: 60px;
+  }
+
+  .fashion_title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 2.3rem;
+  }
+
+  .fashion_description {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+
+  .fashion_btn {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+  }
+
+  /* ┌─────────────────────────────────────────┐
+     │ catalog_area                            │
+     └─────────────────────────────────────────┘ */
+
+  .img_inner {
+    width: 100%;
+    position: relative;
+  }
+
+  /* ┌─────────────────────────────────────────┐
+   │ catalog_area                            │
+   └─────────────────────────────────────────┘ */
+
+  .catalog_antique_area {
+    width: 100%;
+    margin-bottom: 6rem;
+    padding: 0 1.8rem;
+  }
+
   .catalog_antique_container1 {
     display: flex;
     flex-direction: column;
@@ -317,31 +388,21 @@
     order: 1;
   }
 
-  /* --- レイアウト確認用（完成したら消す） --- */
-  div,
-  section,
-  article,
-  header,
-  footer,
-  nav,
-  main {
-    outline: 1px solid red !important;
+  /* ┌─────────────────────────────────────────┐
+     │ フッター　　　　                        │
+     └─────────────────────────────────────────┘ */
+
+  .footer_inner {
+    display: flex;
+    padding-left: 2rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4.3em;
   }
-  img,
-  svg {
-    outline: 1px solid blue !important;
-    background-color: rgba(0, 0, 255, 0.1);
-  }
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  span,
-  a,
-  li {
-    outline: 1px solid limegreen !important;
+
+  .footer_img {
+    width: 15rem;
+    align-self: center;
   }
 }
